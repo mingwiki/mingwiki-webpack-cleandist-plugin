@@ -1,0 +1,1 @@
+# mingwiki-webpack-cleandist-plugin
