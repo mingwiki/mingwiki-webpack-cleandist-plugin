@@ -1,0 +1,25 @@
+{
+  "name": "mingwiki-webpack-cleandist-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingwiki/mingwiki-webpack-cleandist-plugin.git"
+  },
+  "author": "mingwiki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mingwiki/mingwiki-webpack-cleandist-plugin/issues"
+  },
+  "homepage": "https://github.com/mingwiki/mingwiki-webpack-cleandist-plugin#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "del": "^6.0.0"
+  }
+}
