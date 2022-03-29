@@ -14,7 +14,7 @@ const schema = {
 class Cleandist {
   constructor(options = { exclude: "" }) {
     this.options = options
-    validate(schema, options)
+    // validate(schema, options)
   }
 
   apply(compiler) {
@@ -22,9 +22,6 @@ class Cleandist {
       let delFiles = [`${compiler.options.output.path}/**`, `!${compiler.options.output.path}/${this.options.exclude}`];
       console.log(delFiles)
       del(delFiles).then(() => callback())
-      // del(delFiles)
-      // callback()
-      console.log(compilation.assets)
     })
   }
 }
