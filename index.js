@@ -14,7 +14,7 @@ const schema = {
 class Cleandist {
   constructor(options = { exclude: "" }) {
     this.options = options
-    // validate(schema, options)
+    validate(schema, options)
   }
 
   apply(compiler) {
