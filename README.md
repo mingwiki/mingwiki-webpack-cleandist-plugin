@@ -20,7 +20,7 @@ module.exports = {
   plugins: [
     new Cleandist(
       {
-        exclude: "b c"
+        exclude: "somefile"
       }
     )
   ]
